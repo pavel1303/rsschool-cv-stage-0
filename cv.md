@@ -40,7 +40,12 @@ function reverse(arr){
 
 ## Education
 ---
+- University: Russian New University, Management
+- Courses: MDN Learn Web Development (HTML and CSS)
+- Books: Head First O’Reilly Learning JavaScript Programming
 
 
 ## Languages
 ---
+
+**English** : A2 Pre-Intermediate

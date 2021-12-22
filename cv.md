@@ -19,9 +19,24 @@ Now i don’t have experience in development. I worked in HoReCa a lot of time, 
 
 ## Skills
 ---
-
+- **HTML**
+- **CSS**
+- **Git, GitHub**
+- **JavaSript**
+- **VS Code**
+- **Figma**
 ## Code Example
 ---
+
+```
+function reverse(arr){
+   for(let i = 0; i <arr.length/2; i++){
+      let temp = arr[i];
+      arr[i] = arr[arr.length-1-i];
+      arr[arr.length-1-i] = temp;
+    }
+} 
+```
 
 ## Education
 ---

@@ -12,6 +12,8 @@
 
 **GitHub:** [Pavel1303](https://github.com/pavel1303 "GitHub")
 
+**Discord:**   ***Pavel Lebedev (@pavel1303)***
+
 ## About Me
 ---
 Now i don’t have experience in development. I worked in HoReCa a lot of time, and now i feel the need change my profession. Three month ago i start to learn a Frontend-develepment. And now i learn to RS School. I want to finish learn in the RS School and start to work Junior Web-Developer. Achievements in my previous job: I started my career in my previous job as a bartender, but after two months I became a bar manager, and after ten months I became a top manager in a bar. For this I worked a lot, and also improved my knowledge by participating in seminars, reading thematic literature and taking courses.

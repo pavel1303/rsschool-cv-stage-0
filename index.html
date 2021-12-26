@@ -7,17 +7,36 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Lebedev Pavel</title>
    <link rel="stylesheet" href="css/reset.css">
-   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="css/main.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-   <header>
-      <h1>Lebedev Pavel</h1>
-      <img src="img/DSC_7876.jpg" alt="Lebedev Pavel">
-   </header>
+
+   <nav class="nav">
+      <ul>
+         <img src="/img/icon/menu.png" alt="Menu">
+         <li><a href="#contacts">Contacts</a></li>
+         <li><a href="#about">About Me</a></li>
+         <li><a href="#skills">Skills</a></li>
+         <li><a href="#code">Code Example</a></li>
+         <li><a href="#projects">Projects</a></li>
+         <li><a href="#education">Education</a></li>
+         <li><a href="#languages">Languages</a></li>
+      </ul>
+   </nav>
    <main>
       <div class="wrapper">
-         <section class="contacts">
+         <header class="header block">
+            <div class="header-text">
+               <h1>Lebedev Pavel</h1>
+               <p>Junior Frontend-Developer</p>
+            </div>
+            <img src="img/DSC_7876.jpg" alt="Lebedev Pavel">
+         </header>
+         <section class="contacts block" id="contacts">
             <h2>Contacts</h2>
             <ul>
                <li class="location"><span>Location:</span> Russia, Moscow</li>
@@ -28,20 +47,23 @@
                <li class="discord"><span>Discord:</span> Pavel Lebedev (@pavel1303)</li>
             </ul>
          </section>
-         <section class="about">
+         <section class="about block" id="about">
             <h2>About Me</h2>
             <p>Now i don’t have experience in development. I worked in HoReCa a lot of time, and now i feel the need
                change
-               my profession. Three month ago i start to learn a Frontend-develepment. And now i learn to RS School. I
+               my profession. Eight month ago i start to learn a Frontend-develepment. And now i learn to RS School.
+               It's my second try...
+               And now I
                want
-               to finish learn in the RS School and start to work Junior Web-Developer. Achievements in my previous job:
+               to finish learn in the RS School and start to work Junior Web-Developer. My achievements in my previous
+               job:
                I
                started my career in my previous job as a bartender, but after two months I became a bar manager, and
                after
                ten months I became a top manager in a bar. For this I worked a lot, and also improved my knowledge by
                participating in seminars, reading thematic literature and taking courses.</p>
          </section>
-         <section class="skills">
+         <section class="skills block" id="skills">
             <h2>Skills</h2>
             <ul>
                <li>HTML<span class="progerss-line"><span class="html fill"></span></span></li>
@@ -52,7 +74,7 @@
                <li>Figma<span class="progerss-line"><span class="figma fill"></span></span></li>
             </ul>
          </section>
-         <section class="code">
+         <section class="code block" id="code">
             <h2>Code Example</h2>
             <pre>
                   <code>
@@ -65,12 +87,12 @@
                      }
                   </code>
                </pre>
-            <div class="codewars">
-               <img src="https://www.codewars.com/users/pavel1303/badges/small" alt="CodeWars Rating"><a
+            <div class="codewars" id="codewars">
+               <img src="https://www.codewars.com/users/pavel1303/badges/large" alt="CodeWars Rating"><a
                   href="https://www.codewars.com/users/pavel1303">More examples</a>
             </div>
          </section>
-         <section class="education">
+         <section class="education block" id="education">
             <h2>Education</h2>
             <ul>
                <li>University: Russian New University, Management</li>
@@ -79,7 +101,7 @@
                      Modern JavaScript Tutorial</a></li>
             </ul>
          </section>
-         <section class="languages">
+         <section class="languages block" id="languages">
             <h2>Languages</h2>
             <p><span>English:</span> A2 Pre-Intermediate</p>
          </section>

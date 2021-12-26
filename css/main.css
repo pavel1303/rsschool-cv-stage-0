@@ -303,7 +303,7 @@ h1 {
    transition: 1s;
    margin-left: 15px;
 }
-.project__item span:hover {
+.project__item:hover span {
    color: #ffffff;
    background-color: var(--color-red);
 }

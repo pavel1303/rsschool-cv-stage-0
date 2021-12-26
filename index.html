@@ -80,12 +80,16 @@
             <h2>Code Example</h2>
             <pre>
                   <code>
-                     function reverse(arr) {
-                        for(let i = 0; i &#60; arr.length/2; i++){
-                           let temp = arr[i];
-                           arr[i] = arr[arr.length-1-i];
-                           arr[arr.length-1-i] = temp;
+                     function alphabetPosition(text) {
+                        let abc = 'abcdefghijklmnopqrstuvwxyz'.toUpperCase();
+                        let arr = text.toUpperCase().split('');
+                        let res = [];
+                        for(let i = 0; i &#60 arr.length; i++){
+                           if(abc.includes(arr[i])){
+                              res.push(abc.indexOf(arr[i])+1);
+                           }
                         }
+                        return res.join(' ');
                      }
                   </code>
                </pre>

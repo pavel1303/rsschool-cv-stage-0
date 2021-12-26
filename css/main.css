@@ -12,7 +12,7 @@ body {
 
 h2 {
    color: var(--color-red);
-   font-size: 20px;
+   font-size: 25px;
    font-weight: 700;
 }
 
@@ -116,6 +116,7 @@ h1 {
    line-height: 1;
    margin-bottom: 20px;
    margin-top: 50px;
+   text-transform: uppercase;
 }
 
 .contacts li {
@@ -134,7 +135,9 @@ h1 {
    color: var(--color-red);
 }
 
-.contacts span {
+.contacts span,
+.education span,
+.languages span {
    margin-right: 15px;
    font-size: 18px;
 }
@@ -270,4 +273,59 @@ h1 {
    display: flex;
    align-items: center;
    margin: 20px;
+   width: 100%;
+}
+
+.project__item {
+   display: block;
+   max-width: 60%;
+   margin: 40px auto;
+   background-image: url("../img/project.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+   padding: 150px 100px;
+   text-decoration: none;
+}
+.project__item span {
+   display: block;
+   font-size: 20px;
+   background-color: #1717196e;
+   border-radius: 20px;
+   padding: 5px 15px;
+   color: var(--color-red);
+   transition: 1s;
+   margin-left: 15px;
+}
+.project__item span:hover {
+   color: #ffffff;
+   background-color: var(--color-red);
+}
+
+.museum {
+   background-image: url("../img/project-2.jpg");
+}
+.education a {
+   text-decoration: none;
+   color: #ffffff;
+   margin-left: 10px;
+   transition: 0.5s;
+}
+.education a:hover {
+   color: var(--color-red);
+}
+
+footer {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+footer img {
+   width: 100px;
+   margin: 25px;
+}
+
+footer span {
+   font-size: 25px;
+   font-weight: 700;
 }

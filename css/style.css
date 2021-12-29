@@ -1,0 +1,194 @@
+body {
+   width: 100%;
+   font-family: "Times New Roman";
+   font-size: 16px;
+}
+h1 {
+   font-size: 3rem;
+   font-weight: bold;
+   background-color: #b6c2ca;
+   flex: 2;
+   padding: 10px 0px 10px 40px;
+   box-shadow: black 0px 0px 3px;
+}
+h2 {
+   font-size: 1.5rem;
+   font-weight: bold;
+   margin-bottom: 10px;
+}
+
+p {
+   padding: 15px;
+}
+
+header {
+   display: flex;
+   flex-direction: row-reverse;
+   justify-content: flex-end;
+   align-items: center;
+   background-color: #cad7e0;
+}
+
+header > img {
+   width: 200px;
+   height: 200px;
+   border-radius: 50%;
+   margin: 20px -20px 20px 100px;
+   box-shadow: black 0px 0px 3px;
+}
+
+.wrapper {
+   width: 70%;
+   margin: 0 auto;
+   box-shadow: gray 0px 10px 15px;
+}
+
+main {
+   background-color: #eff3f6;
+}
+
+section {
+   padding: 20px;
+}
+
+li {
+   margin: 15px 0 15px 20px;
+   display: flex;
+   align-items: center;
+}
+
+span {
+   font-weight: bold;
+}
+.contacts span {
+   margin-right: 10px;
+}
+
+.location::before {
+   content: "";
+   display: inline-block;
+   width: 25px;
+   height: 25px;
+   background-image: url("../img/icon/location.png");
+   background-size: 25px 25px;
+   margin-right: 10px;
+}
+.phone::before {
+   content: "";
+   display: inline-block;
+   width: 25px;
+   height: 25px;
+   background-image: url("../img/icon/phone.png");
+   background-size: 25px 25px;
+   margin-right: 10px;
+}
+.email::before {
+   content: "";
+   display: inline-block;
+   width: 25px;
+   height: 25px;
+   background-image: url("../img/icon/email.png");
+   background-size: 25px 25px;
+   margin-right: 10px;
+}
+.telegram::before {
+   content: "";
+   display: inline-block;
+   width: 25px;
+   height: 25px;
+   background-image: url("../img/icon/telegram.png");
+   background-size: 25px 25px;
+   margin-right: 10px;
+}
+.github::before {
+   content: "";
+   display: inline-block;
+   width: 25px;
+   height: 25px;
+   background-image: url("../img/icon/github.png");
+   background-size: 25px 25px;
+   margin-right: 10px;
+}
+.discord::before {
+   content: "";
+   display: inline-block;
+   width: 25px;
+   height: 25px;
+   background-image: url("../img/icon/discord.png");
+   background-size: 25px 25px;
+   margin-right: 10px;
+}
+
+.about p {
+   line-height: 2;
+}
+.skills li {
+   justify-content: space-between;
+   width: 80%;
+}
+.skills span {
+   margin-right: 100px;
+}
+.progerss-line {
+   display: inline-block;
+   width: 400px;
+   height: 20px;
+   border: black 2px solid;
+}
+
+.fill {
+   display: block;
+   height: 100%;
+   background-color: #c99d19;
+   box-shadow: gray 0 0 10px;
+}
+.html {
+   width: 90%;
+}
+.css {
+   width: 80%;
+}
+
+.js {
+   width: 50%;
+}
+.gh {
+   width: 70%;
+}
+.vs-code {
+   width: 90%;
+}
+.figma {
+   width: 90%;
+}
+
+.codewars {
+   display: flex;
+   align-items: center;
+   margin-left: 30px;
+}
+
+.codewars a {
+   padding: 3px 10px;
+   color: #d6e3d9;
+   font-size: 16px;
+   margin-left: 20px;
+   text-transform: uppercase;
+   background-color: #303133;
+   border-radius: 20px;
+   text-decoration: none;
+   border: #c99d19 2px solid;
+}
+
+.codewars a:hover {
+   transform: scale(1.1);
+   box-shadow: gray 1px 1px 10px;
+}
+
+code {
+   line-height: 1.4;
+}
+
+a {
+   margin-left: 10px;
+}

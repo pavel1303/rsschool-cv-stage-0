@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Lebedev Pavel</title>
+   <link rel="stylesheet" href="css/reset.css">
+   <link rel="stylesheet" href="css/main.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+   <nav class="nav">
+      <div class="menu"> </div>
+      <ul>
+         <li><a href="#contacts">Contacts</a></li>
+         <li><a href="#about">About Me</a></li>
+         <li><a href="#skills">Skills</a></li>
+         <li><a href="#code">Code Example</a></li>
+         <li><a href="#projects">Projects</a></li>
+         <li><a href="#education">Education</a></li>
+         <li><a href="#languages">Languages</a></li>
+      </ul>
+   </nav>
+   <div class="wrapper">
+      <header class="header block">
+         <div class="header-text">
+            <h1>Pavel Lebedev</h1>
+            <p>Junior Frontend-Developer</p>
+         </div>
+         <img src="img/DSC_7876.jpg" alt="Lebedev Pavel">
+      </header>
+      <main>
+
+
+         <section class="contacts block" id="contacts">
+            <h2>Contacts</h2>
+            <ul>
+               <li class="location"><span>Location:</span> Russia, Moscow</li>
+               <li class="phone"><span>Phone:</span> +7-926-378-79-01</li>
+               <li class="email"><span>Email:</span> lebedpavel.dev@gmail.com</li>
+               <li class="telegram"><span>Telegram:</span><a href="https://t.me/jonybravo13">JonyBravo13</a></li>
+               <li class="github"><span>GitHub:</span><a href="https://github.com/pavel1303">Pavel1303</a></li>
+               <li class="discord"><span>Discord:</span> Pavel Lebedev (@pavel1303)</li>
+            </ul>
+         </section>
+         <section class="about block" id="about">
+            <h2>About Me</h2>
+            <p>Now i don’t have experience in development. I worked in HoReCa a lot of time, and now i feel the need
+               change
+               my profession. Eight month ago i start to learn a Frontend-develepment. And now i learn to RS School.
+               It's my second try...
+               And now I
+               want
+               to finish learn in the RS School and start to work Junior Web-Developer. My achievements in my previous
+               job:
+               I
+               started my career in my previous job as a bartender, but after two months I became a bar manager, and
+               after
+               ten months I became a top manager in a bar. For this I worked a lot, and also improved my knowledge by
+               participating in seminars, reading thematic literature and taking courses.</p>
+         </section>
+         <section class="skills block" id="skills">
+            <h2>Skills</h2>
+            <ul>
+               <li>HTML<span class="progerss-line"><span class="html fill"></span></span></li>
+               <li>CSS<span class="progerss-line"><span class="css fill"></span></span></li>
+               <li>JavaScript<span class="progerss-line"><span class="js fill"></span></span></li>
+               <li>Git,GitHub<span class="progerss-line"><span class="gh fill"></span></span></li>
+               <li>VS Code<span class="progerss-line"><span class="vs-code fill"></span></span></li>
+               <li>Figma<span class="progerss-line"><span class="figma fill"></span></span></li>
+            </ul>
+         </section>
+         <section class="code block" id="code">
+            <h2>Code Example</h2>
+            <pre>
+                  <code>
+                     function alphabetPosition(text) {
+                        let abc = 'abcdefghijklmnopqrstuvwxyz'.toUpperCase();
+                        let arr = text.toUpperCase().split('');
+                        let res = [];
+                        for(let i = 0; i &#60; arr.length; i++){
+                           if(abc.includes(arr[i])){
+                              res.push(abc.indexOf(arr[i])+1);
+                           }
+                        }
+                        return res.join(' ');
+                     }
+                  </code>
+               </pre>
+            <div class="codewars" id="codewars">
+               <img src="https://www.codewars.com/users/pavel1303/badges/large" alt="CodeWars Rating"><a
+                  href="https://www.codewars.com/users/pavel1303">More examples</a>
+            </div>
+         </section>
+         <section class="projects block" id="projects">
+            <h2>Projects</h2>
+            <a class="project__item" href="https://pavel1303.github.io/drum__kit/" target="_blank">
+               <span>See project</span>
+            </a>
+            <a class="project__item museum" href="https://pavel1303.github.io/museum/museum/" target="_blank">
+               <span>See project</span>
+            </a>
+         </section>
+         <section class="education block" id="education">
+            <h2>Education</h2>
+            <ul>
+               <li><span>University:</span> Russian New University, Management</li>
+               <li><span>Courses:</span> MDN Learn Web Development (HTML and CSS), RS School (in progress)</li>
+               <li><span>Books:</span> Head First O’Reilly Learning JavaScript Programming, <a
+                     href="https://javascript.info/">The
+                     Modern JavaScript Tutorial</a></li>
+            </ul>
+         </section>
+         <section class="languages block" id="languages">
+            <h2>Languages</h2>
+            <p><span>English:</span> A2 Pre-Intermediate</p>
+         </section>
+
+
+      </main>
+      <footer>
+         <a href="https://github.com/pavel1303"><img src="img/icon/github.png" alt="GitHub"></a>
+         <span>2021</span>
+         <a href="https://rs.school/js/"><img src="img/icon/rs_school_js.svg" alt="RS School"></a>
+      </footer>
+   </div>
+</body>
+
+</html>
